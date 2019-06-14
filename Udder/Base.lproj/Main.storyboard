@@ -32,7 +32,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8tV-Bp-h7d">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="milk" translatesAutoresizingMaskIntoConstraints="NO" id="8tV-Bp-h7d">
                                 <rect key="frame" x="0.0" y="369" width="375" height="298"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -47,6 +47,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="milk.jpg" width="275" height="183"/>
+        <image name="milk" width="275" height="183"/>
     </resources>
 </document>
