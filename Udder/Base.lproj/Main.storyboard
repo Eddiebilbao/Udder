@@ -25,19 +25,27 @@
                                 <nil key="textColor"/>
                                 <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fresh Milk, On Demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jr7-Xt-XdF">
-                                <rect key="frame" x="98" y="98" width="179" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Milk, On Demand" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jr7-Xt-XdF">
+                                <rect key="frame" x="98" y="95" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newmilk" translatesAutoresizingMaskIntoConstraints="NO" id="8tV-Bp-h7d">
-                                <rect key="frame" x="0.0" y="146" width="375" height="521"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newmilk" translatesAutoresizingMaskIntoConstraints="NO" id="8tV-Bp-h7d">
+                                <rect key="frame" x="0.0" y="150" width="375" height="517"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90775202510961461" green="0.95686274510000002" blue="0.94123854677316421" alpha="0.61994344325153372" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.64119888717283957" green="0.98154176311728392" blue="0.9303457814629631" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="8tV-Bp-h7d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Mf-3C-Dub"/>
+                            <constraint firstItem="8tV-Bp-h7d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KMP-Ug-1Kq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jr7-Xt-XdF" secondAttribute="trailing" constant="98" id="LAr-hD-KEx"/>
+                            <constraint firstItem="8tV-Bp-h7d" firstAttribute="top" secondItem="jr7-Xt-XdF" secondAttribute="bottom" constant="34" id="Ygc-6x-A1y"/>
+                            <constraint firstItem="jr7-Xt-XdF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="auQ-zj-PpR"/>
+                            <constraint firstItem="8tV-Bp-h7d" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g33-W4-25v"/>
+                            <constraint firstItem="8tV-Bp-h7d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="75" id="ljJ-Ez-md2"/>
+                            <constraint firstAttribute="bottom" secondItem="8tV-Bp-h7d" secondAttribute="bottom" id="uhU-Li-mD7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
